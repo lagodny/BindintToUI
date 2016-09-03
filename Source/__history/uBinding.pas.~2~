@@ -1,0 +1,23 @@
+unit uBinding;
+
+interface
+
+uses
+  Generics.Collections,
+  System.Bindings.Expression,
+  System.Bindings.Helper;
+
+type
+  TBoundObject = class
+  protected
+    type
+      TExpressionList = class(TObjectList<TBindingExpression>);
+  private
+    FBindings: TExpressionList;
+  protected
+    property Bindings: TExpressionList read FBindings;
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,28 @@
+object Form1: TForm1
+  Left = 577
+  Top = 236
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Left = 577
+  Top = 236
+  DesignerMasterStyle = 0
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 64.000000000000000000
+    Position.Y = 40.000000000000000000
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 272.000000000000000000
+    Position.Y = 40.000000000000000000
+  end
+end

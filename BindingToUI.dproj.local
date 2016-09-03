@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.774,=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016.09.02 22:43:09.130,=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016.09.02 22:44:03.234,D:\Projects\_DX10\_Test\BindintToUI\uMain.pas=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016.09.02 22:44:03.234,D:\Projects\_DX10\_Test\BindintToUI\uMain.fmx=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2016.09.02 22:44:12.741,D:\Projects\_DX10\_Test\BindintToUI\BindingToUI.dproj=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016.09.02 22:57:37.731,=D:\Projects\_DX10\_Test\BindintToUI\Unit1.pas</Transaction>
+    <Transaction>2016.09.02 22:58:25.100,D:\Projects\_DX10\_Test\BindintToUI\Source\uBinding.pas=D:\Projects\_DX10\_Test\BindintToUI\Unit1.pas</Transaction>
+    <Transaction>2016.09.02 23:36:13.131,=D:\Projects\_DX10\_Test\BindintToUI\Unit1.pas</Transaction>
+    <Transaction>2016.09.02 23:36:32.073,D:\Projects\_DX10\_Test\BindintToUI\Source\Test\uTestBinding.pas=D:\Projects\_DX10\_Test\BindintToUI\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

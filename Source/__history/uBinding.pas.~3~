@@ -1,0 +1,33 @@
+unit uBinding;
+
+interface
+
+uses
+  Generics.Collections,
+  System.Bindings.Expression,
+  System.Bindings.Helper;
+
+type
+  TBoundObject = class
+  protected
+    type
+      TExpressionList = class(TObjectList<TBindingExpression>);
+  private
+    FBindings: TExpressionList;
+  protected
+    procedure Notify(const APropertyName: string = '');
+    property Bindings: TExpressionList read FBindings;
+  public
+    constructor Create; virtual;
+    destructor Destroy; override;
+
+    procedure Bind(const AProperty: string;
+      const ABindObject: TObject; ABindToProperty: string;
+      const ACreateOptions: TBindings.TCreateOptions = [coNotifyOutput, coEvaluate]);
+    procedure ClearBindings;
+
+  end;
+
+implementation
+
+end.
